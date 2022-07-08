@@ -1,0 +1,41 @@
+.navbar {
+    display: grid;
+    grid-template-columns: 0.3fr repeat(10, 1fr) 0.3fr;
+    grid-template-rows: 0.3fr repeat(8, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.navbar__logo {
+    grid-area: 2 / 2 / 3 / 3;
+}
+
+.navbar__link_features {
+    grid-area: 2 / 5 / 3 / 6;
+    align-self: center;
+    justify-self: center;
+    color: gray;
+    text-decoration: none;
+}
+
+.navbar__link_partners {
+    grid-area: 2 / 6 / 3 / 7;
+    align-self: center;
+    justify-self: center;
+    color: gray;
+    text-decoration: none;
+}
+
+.navbar__link_stories {
+    grid-area: 2 / 7 / 3 / 8;
+    align-self: center;
+    justify-self: center;
+    color: gray;
+    text-decoration: none;
+}
+
+.navbar__btn {
+    grid-area: 2 / 10 / 3 / 12;
+    border-radius: 40px;
+    cursor: pointer;
+}
