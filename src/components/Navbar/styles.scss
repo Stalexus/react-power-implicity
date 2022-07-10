@@ -1,7 +1,7 @@
 .navbar {
     display: grid;
     grid-template-columns: 0.3fr repeat(10, 1fr) 0.3fr;
-    grid-template-rows: 0.3fr repeat(8, 1fr);
+    grid-template-rows: 0.4fr 1fr;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
 }
@@ -38,4 +38,10 @@
     grid-area: 2 / 10 / 3 / 12;
     border-radius: 40px;
     cursor: pointer;
+}
+
+@media screen and (max-width: 320px) {
+    .navbar__btn {
+        width: 63px;
+    }
 }
