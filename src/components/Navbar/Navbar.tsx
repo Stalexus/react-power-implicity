@@ -1,5 +1,5 @@
 import './styles.scss';
-import logo from "../assets/applelogo.png";
+import logo from "../../assets/applelogo.png";
 
 export const Navbar = () => {
   return (
