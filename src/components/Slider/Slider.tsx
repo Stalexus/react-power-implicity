@@ -1,6 +1,6 @@
 import './styles.scss';
-import dot from '../assets/dot.png'
-import activedot from '../assets/activedot.png'
+import dot from '../../assets/dot.png'
+import activedot from '../../assets/activedot.png'
 
 export const Slider = () => {
   return (
