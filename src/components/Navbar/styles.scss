@@ -10,26 +10,17 @@
     grid-area: 2 / 2 / 3 / 3;
 }
 
-.navbar__link_features {
-    grid-area: 2 / 5 / 3 / 6;
-    align-self: center;
-    justify-self: center;
-    color: gray;
-    text-decoration: none;
+.navbar__links {
+    grid-area: 2 / 5 / 3 / 8;
+    place-items: center;
+    gap: 70px;
+    display: flex;
+    list-style-type: none;
 }
 
-.navbar__link_partners {
-    grid-area: 2 / 6 / 3 / 7;
-    align-self: center;
-    justify-self: center;
-    color: gray;
-    text-decoration: none;
-}
-
+.navbar__link_features,
+.navbar__link_partners,
 .navbar__link_stories {
-    grid-area: 2 / 7 / 3 / 8;
-    align-self: center;
-    justify-self: center;
     color: gray;
     text-decoration: none;
 }
@@ -42,6 +33,11 @@
 
 @media screen and (max-width: 320px) {
     .navbar__btn {
-        width: 63px;
+        width: 100px;
+    }
+
+    .navbar__links {
+        margin-left: 15px;
+        grid-area: 3 / 2 / 3 / 8;
     }
 }
