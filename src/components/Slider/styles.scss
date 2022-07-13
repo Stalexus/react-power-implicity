@@ -39,11 +39,13 @@
 
 .slider__dots {
     margin-top: 30px;
+    display: flex;
+    list-style-type: none;
 }
 
 .slider__dot,
 .slider__dot_active {
-    margin-left: 15px;
+    margin-left: 10px;
 }
 
 @media screen and (max-width: 768px) {

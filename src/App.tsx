@@ -2,7 +2,7 @@ import './App.scss';
 import { Navbar } from './components/Navbar/Navbar';
 import { Slider } from './components/Slider/Slider';
 
-export function App() {
+export const App = () => {
   return (
     <div className="container">
     <Navbar />
